@@ -8,12 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* CSS Variables */
-
-/* :root {
-    --navbar-height: 59px;
-} */
-
 /* Navigation Bar */
 #navbar::before {
     content: "";
@@ -46,6 +40,7 @@ html{
 #navbar ul {
     display: flex;
     font-family: 'Baloo Bhai 2', cursive;
+    margin: 0 auto;
 }
 
 #navbar ul li {
@@ -59,7 +54,6 @@ html{
     padding: 0px 20px;
     border-radius: 20px;
     text-decoration: none;
-
 }
 
 #navbar ul li a:hover {
@@ -76,7 +70,6 @@ html{
     width: 100%;
     height: 835px;
     z-index: -1;
-    /* opacity: 0.8; */
 }
 
 #home {
@@ -90,8 +83,6 @@ html{
 #home h1 {
     color: white;
     position: relative;
-    /* left: 415px;
-    top: -46px; */
 }
 
 #home p {
@@ -101,11 +92,10 @@ html{
     font-family: 'Bree Serif', serif;
     position: relative;
     padding: 0px 16px;
-    /* left: 415px;
-    top: -46px; */
 }
 
 .btn1 {
+    position: relative;
     color: white;
     background-color: brown;
     border: 2px solid white;
@@ -114,9 +104,6 @@ html{
     font-size: 1.3rem;
     border-radius: 10px;
     cursor: pointer;
-    position: relative;
-    /* left: 415px;
-    top: -46px; */
 }
 
 /* Services section */

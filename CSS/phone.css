@@ -4,6 +4,7 @@
     flex-direction: column;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 #navbar ul li{
@@ -20,13 +21,16 @@
 }
 
 /* Home section */
-
 #home::before{
     height: 485px;
 }
 
 #home{
     height: 398px;
+}
+
+#home h1 {
+    font-size: 20px;
 }
 
 #home p {
